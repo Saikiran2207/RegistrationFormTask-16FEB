@@ -1,0 +1,13 @@
+body{
+background: linear-gradient(#eb7734 30%, #f7fbfc 50%, #0acf0a 100%);
+}
+
+        input[type=text], select, textarea {
+            width: 100%;
+            padding: 5px;
+            border: 1px;
+            border-radius: 2px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+        }

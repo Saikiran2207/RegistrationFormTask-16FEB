@@ -1,0 +1,81 @@
+<html>
+<head>
+    <title>Registration Form</title>
+     <link rel="stylesheet" href="registration.css">
+    <script src="regis.js"></script>
+    </head>
+    <body>
+     <div class="container">
+        <form action="action_page.php">
+         <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Enter your first name...">
+            
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Enter your last name...">
+            
+            <label for="fathername">Father Name</label>
+            <input type="text" id="fathername" name="fathername" placeholder="Enter your Father name...">
+            
+            <label for="mname">First Name</label>
+            <input type="text" id="mname" name="mothername" placeholder="Enter your Mother name...">
+            
+            <label for="mobile">Contact:</label> 
+            <input type="text" id="mobile" 
+                   name="mobile" 
+                   placeholder="Enter your Mobile Number..."> 
+            
+            <label for="address">Address</label>
+            <textarea id="address" name="address" placeholder="Enter your address..."></textarea>
+            
+            <label for="state">State</label>
+            <select id="state" name="state">
+                <option value="select">Select</option>
+            <option value="telangana">Telangana</option>
+                <option value="andrapradesh">Andhra Pradesh</option>
+                <option value="karnataka">Karnataka</option>
+                <option value="kerala">Kerala</option>
+                <option value="tamilnadu">TamilNadu</option>
+                <option value="madhyapradesh">Madhya Pradesh</option>
+            </select>
+            
+            <label for="country">Country</label>
+            <select id="country" name="country">
+                <option value="select">Select</option>
+            <option value="india">India</option>
+                <option value="srilanka">Srilanka</option>
+                <option value="usa">USA</option>
+            </select>
+            
+            <label for="college">College</label>
+            <input type="text" id="college" name="college" placeholder="Enter your college name..." >
+            
+            <label for="university">University</label>
+            <input type="text" id="university" name="university" placeholder="Enter your university name..." >
+            
+             <label for="branch">Branch</label>
+            <select id="branch" name="branch">
+                <option value="select">Select</option>
+            <option value="cse">CSE</option>
+                <option value="ece">ECE</option>
+                <option value="eee">EEE</option>
+                <option value="mech">MECH</option>
+                <option value="civil">CIVIL</option>
+            </select>
+            
+            <label for="aoi">Areas of Interest</label><br>
+            <input type="checkbox" name="checkbox">&nbsp;AI</input><br>
+         <input type="checkbox" name="checkbox">&nbsp;ML</input><br>
+        <input type="checkbox" name="checkbox">&nbsp;Blockchain</input><br>
+    <input type="checkbox" name="checkbox">&nbsp;Data Science</input><br>
+    <input type="checkbox" name="checkbox">&nbsp;Python</input><br>
+<input type="checkbox" name="checkbox">&nbsp;Java</input><br><br>
+            
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something..."></textarea>
+            
+            <input type="submit" value="Submit">
+         </form>
+        </div>
+    </body>
+    
+</html>
